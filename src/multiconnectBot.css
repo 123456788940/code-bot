@@ -1,0 +1,72 @@
+/* MultiConnectBot.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.wallets {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.wallet {
+    flex: 0 0 45%;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.wallet h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.wallet p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.connect-button, .trade-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.connect-button:hover, .trade-button:hover {
+    background-color: #0056b3;
+}
+
+.address-input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.trade-history ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.trade-history li {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
